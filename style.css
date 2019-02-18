@@ -1,0 +1,59 @@
+body {
+	background-color: #545454;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	color: #F5D580;
+}
+
+.container {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 600px;
+	margin: auto 10px;
+}
+
+p {
+	color: white;
+	font-size: 120%;
+}
+
+h2 {
+	color: #F5D580;
+	text-decoration: underline;
+}
+
+a {
+	color: #EAAA00;
+	text-decoration: none;
+}
+
+.tab {
+	display: inline-block;
+	background-color: #EAAA00;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 30px 30px;
+	color: white;
+}
+
+.tab:hover {
+	background-color: white;
+	color: #EAAA00;
+}
+
+.popup {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	visibility: hidden;
+}
+
+.popup:target {
+	position: relative;
+	visibility: visible;
+}
