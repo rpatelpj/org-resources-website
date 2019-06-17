@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Organization Name Resources</title>
+	<title>Organization Resource Center</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Organization Name</h1>
+	<div id="menu">
+		<a id="menu-close" href="">
+			<i class="fas fa-times"></i>
+		</a>
+		<a href="">Newsletter</a><br><br>
+	 	<a href="DepartmentA.html">Department A</a><br><br>
+	 	<a href="DepartmentB.html">Department B</a><br><br>
+	 	<a href="DepartmentC.html">Department C</a><br><br>
+	 	<a href="">Feedback Form</a>
+	</div>
+
+	<h1>Organization Resource Center
+		<a id="menu-open" href="#menu">
+			<i class="fas fa-bars"></i>
+		</a>
+	</h1>
 	<hr>
+
 	<div>
 		<div class="container">
 			<div>
@@ -18,18 +35,19 @@
 			</div>
 
 			<div>
-				<h2>To-Do List</h2>
-					<a class="tab" href="">TODO 1</a>
-					<a class="tab" href="">TODO 2</a>
-					<a class="tab" href="">TODO 3</a>
+				<h2>To-Do</h2>
+					<a class="tab" href="">To-Do Tab 1</a>
+					<a class="tab" href="">To-Do Tab 2</a>
+					<a class="tab" href="">To-Do Tab 3</a>
 			</div>
 
 			<div>
-				<h2>Useful Contacts</h2>
+				<h2>Contacts</h2>
 					<p>
-						Useful Contact 1 (###-###-####)<br>
-						Useful Contact 2 (###-###-####)<br>
-						Useful Contact 3 (###-###-####)
+						Contact 1 (###-###-####)<br>
+						Contact 2 (###-###-####)<br>
+						Contact 3 (###-###-####)<br>
+						<a class="tab" href="">Contact List</a>
 					</p>
 			</div>
 
@@ -47,30 +65,30 @@
 		<div class="container">
 			<div>
 				<h2>Resources Heading 1</h2>
-					<a class="tab" href="">Resource Tab 1</a>
-					<a class="tab" href="">Resource Tab 2</a>
-					<a class="tab" href="#R">Resource Tab 3</a>
-					<a id="R" class="popup" href="">
+					<a class="tab" href="#R1">Resource Tab 1 - Click on Me</a>
+					<a id="R1" class="popup" href="">
 						<div>
 							<p>
-								Directions for this resource.
+								Popup directions for this resource.
 							</p>
 						</div>
 					</a>
+					<a class="tab" href="">Resource Tab 2</a>
+					<a class="tab" href="">Resource Tab 3</a>
 			</div>
 
 			<div>
 				<h2>Resources Heading 2</h2>
 					<a class="tab" href="">Resource Tab 1</a>
-					<a class="tab" href="">Resource Tab 2</a>
-					<a class="tab" href="#R">Resource Tab 3</a>
-					<a id="R" class="popup" href="">
+					<a class="tab" href="#R2">Resource Tab 2 - Click on Me</a>
+					<a id="R2" class="popup" href="">
 						<div>
 							<p>
-								Directions for this resource.
+								Popup directions for this resource.
 							</p>
 						</div>
 					</a>
+					<a class="tab" href="">Resource Tab 3</a>
 			</div>
 
 
@@ -78,11 +96,11 @@
 				<h2>Resources Heading 3</h2>
 					<a class="tab" href="">Resource Tab 1</a>
 					<a class="tab" href="">Resource Tab 2</a>
-					<a class="tab" href="#R">Resource Tab 3</a>
-					<a id="R" class="popup" href="">
+					<a class="tab" href="#R3">Resource Tab 3 - Click on Me</a>
+					<a id="R3" class="popup" href="">
 						<div>
 							<p>
-								Directions for this resource.
+								Popup directions for this resource.
 							</p>
 						</div>
 					</a>
